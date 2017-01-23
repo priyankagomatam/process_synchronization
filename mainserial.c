@@ -194,9 +194,6 @@ node_t *current;
 		node->func=func;
 		node->priority = priority;
 
-
-
-
 		//increment size; do this after giving serializer away in case the list is new
 		q->size = q->size+1;
 		
@@ -211,11 +208,6 @@ node_t *current;
 		
 	} 
 }
-
-
-
-
-
 
 void serial_dequeue(serial_t *s){
 node_t *node;
