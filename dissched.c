@@ -1,5 +1,5 @@
 #include "ds_serial.h"
-
+// Authors: Priyanka Gomatam, Ikenna Okafor
 void Init_ds(int disk_size, float seek_time){
 	if(seek_time >= 0 || disk_size > 0 ) {
 		serial = Create_Serial();
